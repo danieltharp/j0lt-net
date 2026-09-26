@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "sh",
+            "args": [
+                "-c",
+                "PATH=\"$HOME/.config/herd-lite/bin:$PATH\" exec php artisan boost:mcp"
+            ]
+        }
+    }
+}
